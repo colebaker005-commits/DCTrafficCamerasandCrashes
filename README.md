@@ -22,26 +22,13 @@ For each of the 283 eligible cameras, this analysis compares crashes within a 20
 
 ## How to run it
 
-- Have Python 3.10
-```bash
-# Clone the repo
-git clone https://github.com/YOUR_USERNAME/dc-camera-analysis.git
-cd dc-camera-analysis
-
-# Install Python packages
-pip install -r requirements.txt
-```
-
-### Run the pipeline
-
 The scripts are numbered so they run in order. You can run them one at a time:
 
 ```bash
 python scripts/01_clean_crashes.py
 python scripts/02_filter_cameras.py
 python scripts/03_run_analysis.py
-python scripts/04_make_figures.py
-python scripts/05_build_workbook.py
+python scripts/04_build_workbook.py
 ```
 
 Or all at once:
